@@ -1,6 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/doctorcu/public_html
+    - export DEPLOYPATH=/home/doctorcu/landing.doctorcusco.com
     - /bin/mkdir -p "$DEPLOYPATH"
-    - /bin/cp -a dist/. "$DEPLOYPATH"/
+    - /bin/ls -la dist || true
+    - /usr/bin/rsync -ah --delete dist/ "$DEPLOYPATH"/
