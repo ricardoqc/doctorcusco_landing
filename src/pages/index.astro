@@ -1,4 +1,6 @@
 ---
+import './global.css';
+const { title = 'Doctor Cusco' } = Astro.props;
 import Header from "../components/Header/Header";
 
 
@@ -10,9 +12,9 @@ import Header from "../components/Header/Header";
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>{title}</title>
 	</head>
-	<body>
+	<body class="container">
 		<Header client:load />
 	</body>
 </html>

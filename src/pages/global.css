@@ -1,0 +1,36 @@
+/* Reset básico (no forzamos márgenes ni anchos globales) */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --color-primary: #D12937;
+    --color-secondary: #18245C;
+    --text: #1c1c1c;
+    --border: #E5E5E5;
+    --font-heading: 'Manrope', sans-serif;
+    --font-body: 'Roboto', sans-serif;
+    --container-max: 1280px;
+}
+
+/* Base */
+html, body { height: 100%; }
+body {
+    margin: 0;
+    color: var(--text);
+    font-family: var(--font-body);
+    background: #ffffff;
+}
+
+a { color: inherit; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Utilitario de contenedor centrado */
+.container {
+    max-width: var(--container-max);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

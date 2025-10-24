@@ -1,27 +1,62 @@
 .siteHeader {
+    height: 110px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.25rem;
-    border-bottom: 1px solid #e5e7eb;
-    position: sticky;
-    top: 0;
-    background: #fff;
-    z-index: 10;
+    justify-content: space-between;
+    padding: 0 16px;
+    background: #ffffff;
 }
 
-.logo {
-    font-weight: 700;
+.logo img{
+    width: 220px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.navLinks {
+    display: flex;
+    gap: 10px;
+}
+
+.navLinks a {
+    padding: 10px 25px;
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--text);
     text-decoration: none;
-    color: #111827;
+    border-radius: 7px;
+    transition: background-color .2s ease, color .2s ease;
 }
 
-.siteHeader nav a {
-    margin-left: 1rem;
-    text-decoration: none;
-    color: #374151;
+.navLinks a:hover,
+.navLinks a:focus-visible {
+    background-color: var(--color-primary);
+    color: #ffffff;
+    outline: none;
 }
 
-.siteHeader nav a:hover {
-    color: #111827;
+.buttonEmergencies {
+    padding: 10px 25px;
+    background-color: var(--color-primary);
+    font-family: var(--font-body);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    color: #ffffff;
+    transition: background-color .2s ease, transform .1s ease;
+}
+.buttonEmergencies:hover { filter: brightness(0.95); }
+.buttonEmergencies:active { transform: translateY(1px); }
+.buttonEmergencies:focus-visible { outline: 2px solid var(--color-secondary); outline-offset: 2px; }
+
+@media (max-width: 768px) {
+    .logo img { width: 160px; }
+    .navbar { gap: 24px; }
+    .navLinks { gap: 6px; }
+    .navLinks a { padding: 8px 14px; font-size: 14px; }
 }
