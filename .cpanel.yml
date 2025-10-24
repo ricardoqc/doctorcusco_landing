@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/incarumi/public_html/
+    - export DEPLOYPATH=/home/doctorcu/public_html
     - /bin/mkdir -p "$DEPLOYPATH"
     - /bin/cp -a dist/. "$DEPLOYPATH"/
