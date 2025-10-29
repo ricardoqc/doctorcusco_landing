@@ -23,9 +23,6 @@ body {
     background: #ffffff;
 }
 
-a { color: inherit; text-decoration: none; }
-a:hover { text-decoration: underline; }
-
 /* Utilitario de contenedor centrado */
 .container {
     max-width: var(--container-max);
@@ -33,4 +30,12 @@ a:hover { text-decoration: underline; }
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+/* Títulos */
+.redTitle {
+    color: var(--color-primary);
+}
+.blueTitle {
+    color: var(--color-secondary);
 }

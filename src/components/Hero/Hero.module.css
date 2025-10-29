@@ -1,0 +1,61 @@
+.heroSection {
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/stock/doctorcusco-medical-attention-for-travellers.png');
+    padding: 5rem;
+}
+.titles {
+    text-align: center;
+    color: white;
+}
+.titles h1 {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.titles p {
+    font-family: var(--font-body);
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+    max-width: 720px;
+}
+.buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.buttons .emergency {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.buttons .appointment {
+    background-color: var(--color-secondary);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.features ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    list-style: none;
+    padding: 0;
+}
+.features li {
+    color: white;
+    margin: 0 1rem;
+    font-weight:200;
+}

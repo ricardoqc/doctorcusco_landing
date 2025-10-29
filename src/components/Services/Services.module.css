@@ -1,0 +1,97 @@
+.serviceSection {
+    height: auto;
+    padding: 40px 0px;
+}
+.mainTitle {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.highTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: var(--font-heading);
+}
+.redTitle {
+    color: var(--color-primary);
+}
+.blueTitle {
+    color: var(--color-secondary);
+}
+.titleDescription {
+    font-size: 1.2rem;
+    color: var(--text);
+    font-weight: 200;
+}
+
+/* Cards */
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card {
+    width: 400px;
+    height: auto;
+    border: 1px solid var(--border);
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.iconTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+}
+.title {
+    width: 250px;
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    color: var(--color-secondary);
+    font-weight: 600;
+    margin-left: 15px;
+}
+.serviceDescription {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: var(--text);
+    line-height: 1.5;
+}
+.consultService {
+    font-size: .8rem;
+    color: #575757;
+}
+.consultButtons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+.consultButtons button {
+    color: var(--color-primary);
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    font-family: var(--font-heading);
+    padding: 0;
+}
+.consultButtons button:hover {
+    text-decoration: underline;
+}
