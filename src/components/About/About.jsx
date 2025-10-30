@@ -1,39 +1,40 @@
+import styles from './About.module.css';
 
 export default function About() {
     return (
-        <div className={styles.about-section}>
-            <div className={styles.main-title}>
-                <h2 className={styles.high-title}>
-                    <span className={styles.red-title}>About</span>
-                    <span className={styles.blue-title}>Doctor Cusco</span>
+        <div className={styles.aboutSection}>
+            <div className={styles.mainTitle}>
+                <h2 className={styles.highTitle}>
+                    <span className={styles.redTitle}>About</span>
+                    <span className={styles.blueTitle}>Doctor Cusco</span>
                 </h2>
-                <p className={styles.title-description}>
+                <p className={styles.titleDescription}>
                     Meet our team of experienced, multilingual medical professionals.
                 </p>
             </div>
-            <div className={styles.about-content}>
+            <div className={styles.aboutContainer}>
                 <div className={styles.image}>
                     <img src="" alt="" />
                 </div>
-                <div className={styles.about-content}>
+                <div className={styles.aboutContent}>
                     <div className={styles.logo}>
                         <img src="" alt="" />
                     </div>
                     <p className={styles.description}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin suscipit ligula, accumsan ullamcorper risus feugiat sed. Pellentesque feugiat, augue ut interdum cursus, erat urna faucibus nisl, at vulputate urna augue feugiat leo. Mauris rhoncus facilisis mauris et suscipit.
                     </p>
-                    <div className={styles.feature-about}>
+                    <div className={styles.featureAbout}>
                         <div className={styles.feature}>
                             <span className={styles.icon}>
                                 <i>icon</i>
                             </span>
-                            <div className={styles.feature-content}>
+                            <div className={styles.featureContent}>
                                 <h3>Feature Title</h3>
                                 <p>Feature description goes here.</p>
                             </div>
                         </div>
                     </div>
-                    <div className={styles.external-links}>
+                    <div className={styles.externalLinks}>
                         <p>External links:</p>
                         <div className={styles.links}>
                             <ul>
