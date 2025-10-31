@@ -1,0 +1,20 @@
+/* Titulos */
+.highTitle {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: var(--font-heading);
+}
+.redTitle {
+    color: var(--color-primary);
+}
+.blueTitle {
+    color: var(--color-secondary);
+}
+.titleDescription {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text);
+    font-weight: 200;
+}

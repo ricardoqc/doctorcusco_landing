@@ -1,4 +1,7 @@
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import styles from './About.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckCircle } from '@fortawesome/free-regular-svg-icons';
 
 export default function About() {
     return (
@@ -6,7 +9,7 @@ export default function About() {
             <div className={styles.mainTitle}>
                 <h2 className={styles.highTitle}>
                     <span className={styles.redTitle}>About</span>
-                    <span className={styles.blueTitle}>Doctor Cusco</span>
+                    <span className={styles.blueTitle}> Doctor Cusco</span>
                 </h2>
                 <p className={styles.titleDescription}>
                     Meet our team of experienced, multilingual medical professionals.
@@ -14,11 +17,12 @@ export default function About() {
             </div>
             <div className={styles.aboutContainer}>
                 <div className={styles.image}>
-                    <img src="" alt="" />
+                    <img src="./images/stock/doctor-cusco.jpg" alt="" />
+                    <p>Dr. David Quispe - ID: 54654765-C</p>
                 </div>
                 <div className={styles.aboutContent}>
                     <div className={styles.logo}>
-                        <img src="" alt="" />
+                        <img src="/images/brand/logo_vertical.png" alt="" />
                     </div>
                     <p className={styles.description}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin suscipit ligula, accumsan ullamcorper risus feugiat sed. Pellentesque feugiat, augue ut interdum cursus, erat urna faucibus nisl, at vulputate urna augue feugiat leo. Mauris rhoncus facilisis mauris et suscipit.
@@ -26,7 +30,7 @@ export default function About() {
                     <div className={styles.featureAbout}>
                         <div className={styles.feature}>
                             <span className={styles.icon}>
-                                <i>icon</i>
+                                <i><FontAwesomeIcon icon={faWhatsapp} /></i>
                             </span>
                             <div className={styles.featureContent}>
                                 <h3>Feature Title</h3>

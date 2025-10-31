@@ -1,17 +1,18 @@
+import styles from './Reviews.module.css';
 
 export default function Reviews() {
     return (
-        <div className={styles.reviews-ssection}>
-            <div className={styles.main-title}>
-                <h2 className={styles.high-title}>
-                    <span className={styles.red-title}>What Our</span>
-                    <span className={styles.blue-title}>Patients Say</span>
+        <div className={styles.reviewsSection}>
+            <div className={styles.mainTitle}>
+                <h2 className={styles.highTitle}>
+                    <span className={styles.redTitle}>What Our </span>
+                    <span className={styles.blueTitle}>Patients Say</span>
                 </h2>
-                <p className={styles.title-description}>
+                <p className={styles.titleDescription}>
                     Read reviews from travelers who trusted us with their health in Cusco
                 </p>
             </div>
-            <div className={styles.reviews-container}>
+            <div className={styles.reviewsContainer}>
                 reviews
             </div>
         </div>

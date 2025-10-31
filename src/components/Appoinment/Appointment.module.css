@@ -1,0 +1,130 @@
+.appointmentSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+/* Titulos */
+.highTitle {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: var(--font-heading);
+}
+.redTitle {
+    color: var(--color-primary);
+}
+.blueTitle {
+    color: var(--color-secondary);
+}
+.titleDescription {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text);
+    font-weight: 200;
+}
+
+/* Appointment Form */
+.appointmentForm {
+    margin: 40px 0px;
+}
+.contactSection {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.contactIcon {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: row;
+}
+
+/* Icon */
+.icon {
+    width: 60px;
+    height: 60px;
+    background-color: var(--color-secondary);
+    border-radius: 15%;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contactInfo .title {
+    color: var(--color-primary);
+    font-size: 1.2rem;
+    margin: 0;
+}
+.contactInfo p {
+    color: var(--text);
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Form */
+.form {
+    width: 100%;
+    padding: 50px;
+    border: 1px solid var(--border);
+    border-radius: 15px;
+}
+.form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-body);
+    color: var(--text);
+    background-color: var(--background);
+}
+.form input::placeholder,
+.form textarea::placeholder {
+    color: var(--text-light);
+}
+.form button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.submitButton i {
+    margin-right: 10px;
+}
+.emergencyMessage {
+    margin-top: 25px;
+    font-size: 0.9rem;
+    color: var(--text);
+    text-align: center;
+}
+.emergencyMessage a{
+    color: var(--color-primary);
+    text-decoration: none;
+}
+.emergencyMessage a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

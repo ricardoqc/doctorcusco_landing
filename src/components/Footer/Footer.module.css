@@ -1,0 +1,55 @@
+.footerSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    gap: 40px;
+}
+
+/* Footer Logo */
+.footerLogo {
+    text-align: center;
+}
+.footerLogo img {
+    width: 250px;
+}
+
+/* Footer Menu */
+.footerMenu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+.footerMenu li {
+    display: inline;
+    margin: 0 15px;
+}
+.footerMenu li:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Legal Links */
+.legalLinks ul {
+    display: flex;
+    flex-direction: inline;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+.legalLinks ul li{
+    font-size: .9rem;
+    color: var(--text);
+}
+.legalLinks ul li a{
+    text-decoration: none;
+    color: var(--text)
+}
+.legalLinks ul li a:hover{
+    color: var(--color-primary);
+    cursor: pointer;
+    text-decoration: underline;
+}

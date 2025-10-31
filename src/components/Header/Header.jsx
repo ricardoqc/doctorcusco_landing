@@ -15,7 +15,7 @@ export default function Header() {
                 </nav>
                 <a href="#appointment">
                     <button className={styles.buttonEmergencies}>
-                        Emergencies
+                        EMERGENCIES
                     </button>
                 </a>
             </div>

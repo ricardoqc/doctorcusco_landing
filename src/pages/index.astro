@@ -5,13 +5,9 @@ import Header from "../components/Header/Header";
 import Hero from '../components/Hero/Hero'
 import Services from '../components/Services/Services';
 import About from '../components/About/About';
-/*;
-
 import Appointment from '../components/Appoinment/Appointment';
 import Reviews from '../components/Reviews/Reviews';
-import Footer from '../components/Footer/Footer'; */
-
-
+import Footer from '../components/Footer/Footer';
 ---
 
 <html lang="en">
@@ -20,6 +16,9 @@ import Footer from '../components/Footer/Footer'; */
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 		<title>{title}</title>
 	</head>
 	<body class="container">
@@ -27,10 +26,8 @@ import Footer from '../components/Footer/Footer'; */
 		<Hero client:load />
 		<Services client:load />
 		<About client:load />
-		<!-- 
-		
 		<Appointment client:load />
 		<Reviews client:load />
-		<Footer client:load /> -->
+		<Footer client:load />
 	</body>
 </html>
